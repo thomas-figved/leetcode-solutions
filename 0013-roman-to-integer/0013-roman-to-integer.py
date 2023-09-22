@@ -23,5 +23,4 @@ class Solution:
                     total += correspondances[letter]
             else: 
                 total += correspondances[letter]
-            print(total)
         return total
