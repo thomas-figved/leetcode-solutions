@@ -5,7 +5,6 @@ class Solution:
         #first sort the intervals
         intervals = sorted(intervals, key=min)
         idx = 0
-        print(intervals)
         while(idx < len(intervals) -1):
 
             if intervals[idx][1] >= intervals[idx+1][0]:
