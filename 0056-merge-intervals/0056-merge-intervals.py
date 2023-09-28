@@ -3,7 +3,7 @@ class Solution:
 
 
         #first sort the intervals
-        intervals = sorted(intervals, key=min)
+        intervals = sorted(intervals)
         idx = 0
         while(idx < len(intervals) -1):
 
