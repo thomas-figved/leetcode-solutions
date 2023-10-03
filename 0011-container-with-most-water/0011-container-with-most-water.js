@@ -18,8 +18,7 @@ var maxArea = function(height) {
         right--;
       }
 
-      let current_content = Math.min(height[left], height[right]) * (right - left);
-      content = Math.max(content, current_content);
+      content = Math.max(content, Math.min(height[left], height[right]) * (right - left));
     }
 
     return content;
