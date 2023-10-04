@@ -26,8 +26,6 @@ var removeNthFromEnd = function(head, n) {
         fast_node = fast_node.next;
         count++;
     }
-    console.log(count);
-
     if(count == n) {
         return delayed_node.next;
     }
