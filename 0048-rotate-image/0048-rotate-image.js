@@ -8,7 +8,7 @@ var rotate = function(matrix) {
         matrix = permute(i, j, matrix); //permute layer by layer
     }
 
-    return matrix;
+    return matrix; 
 };
 
 function permute(i, j, matrix) {
