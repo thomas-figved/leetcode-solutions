@@ -5,7 +5,7 @@
 var groupAnagrams = function(strs) {
     let groups = [
       // {
-      //   pattern: "", //the alphabetically sorted version of the anagram group
+      //   pattern: "", //the alphabetically sorted version of the anagram group 
       //   words: [], //store the words here
       // }
     ];
